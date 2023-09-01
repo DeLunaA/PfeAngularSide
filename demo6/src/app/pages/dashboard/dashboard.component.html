@@ -1,0 +1,159 @@
+<div class="
+stepper stepper-pills stepper-column
+d-flex
+flex-column flex-xl-row flex-row-fluid
+" id="kt_create_account_stepper">
+<!--begin::Aside-->
+<div
+class="card d-flex justify-content-center justify-content-xl-start flex-row-auto w-100 w-xl-300px w-xxl-400px me-9">
+<div class="card-body px-6 px-lg-10 px-xxl-15 py-20">
+  <div class="stepper-nav">
+
+    <div class="stepper-item" [ngClass]="{
+      }">
+      <!--begin::Wrapper-->
+      <div class="stepper-wrapper">
+
+
+        <!--begin::Label-->
+        <div class="stepper-label">
+          <h3 class="stepper-title">
+            How to apply for a course ?
+          </h3>
+
+          <div class="stepper-desc fw-semibold">
+            (Please follow these steps)
+          </div>
+        </div>
+        <!--end::Label-->
+      </div>
+      <!--end::Wrapper-->
+      <br><br>
+    </div>
+
+
+
+
+    <div class="stepper-item" [ngClass]="{
+        current: currentStep$.value === 2,
+        completed: currentStep$.value > 2
+      }">
+      <!--begin::Wrapper-->
+      <div class="stepper-wrapper">
+        <!--begin::Icon-->
+        <div class="stepper-icon w-40px h-40px">
+          <i class="stepper-check fas fa-check"></i>
+          <span class="stepper-number">1</span>
+        </div>
+        <!--end::Icon-->
+
+        <!--begin::Label-->
+        <div class="stepper-label">
+          <h3 class="stepper-title">
+            Select Your Preferred Course
+          </h3>
+          <div class="stepper-desc fw-semibold">
+            Based on Your Department.
+          </div>
+        </div>
+        <!--end::Label-->
+      </div>
+      <!--end::Wrapper-->
+
+      <!--begin::Line-->
+      <div class="stepper-line h-40px"></div>
+      <!--end::Line-->
+    </div>
+
+    <div class="stepper-item" [ngClass]="{
+      }">
+      <!--begin::Wrapper-->
+      <div class="stepper-wrapper">
+        <!--begin::Icon-->
+        <div class="stepper-icon w-40px h-40px">
+          <i class="stepper-check fas fa-check"></i>
+          <span class="stepper-number">2</span>
+        </div>
+        <!--end::Icon-->
+
+        <!--begin::Label-->
+        <div class="stepper-label">
+          <h3 class="stepper-title">
+            Complete the Enrollment Form
+          </h3>
+          <div class="stepper-desc fw-semibold">
+          </div>
+        </div>
+        <!--end::Label-->
+      </div>
+      <!--end::Wrapper-->
+
+      <!--begin::Line-->
+      <div class="stepper-line h-40px"></div>
+      <!--end::Line-->
+    </div>
+
+    <div class="stepper-item" [ngClass]="{
+        current: currentStep$.value === 4,
+        completed: currentStep$.value > 4
+      }">
+      <!--begin::Wrapper-->
+      <div class="stepper-wrapper">
+        <!--begin::Icon-->
+        <div class="stepper-icon w-40px h-40px">
+          <i class="stepper-check fas fa-check"></i>
+          <span class="stepper-number">3</span>
+        </div>
+        <!--end::Icon-->
+
+        <!--begin::Label-->
+        <div class="stepper-label">
+          <h3 class="stepper-title">
+            Administration Confirmation
+          </h3>
+          <div class="stepper-desc fw-semibold">
+            The administration will review your enrollment and respond.
+          </div>
+          <div class="stepper-desc fw-semibold">
+          </div>
+        </div>
+        <!--end::Label-->
+      </div>
+      <!--end::Wrapper-->
+
+      <!--end::Wrapper-->
+    </div>
+  </div>
+</div>
+</div>
+<!--begin::Aside-->
+
+
+
+<div class="card d-flex justify-content-center justify-content-xl-start flex-row-auto w-100 w-xl-300px w-xxl-850px me-9">
+  <div class="card-body px-6 px-lg-10 px-xxl-15 py-20">
+    <div class="stepper-nav d-flex justify-content-center align-items-center">
+      <!-- Add an image here -->
+      <img src="./assets/media/stock/600x400/73.jpg" alt="Your Image Description" style="max-width: 700px; height: auto;">
+    </div>
+  </div>
+</div>
+
+
+</div>
+
+<br>
+
+
+<!-- begin::Row -->
+<div class="row g-5 g-xl-8">
+  <div class="col-xl-6">
+    <app-lists-widget7 class="card card-xl-stretch mb-xl-8"></app-lists-widget7>
+  </div>
+  <div class="col-xl-6">
+    <app-lists-widget8
+      class="card card-xl-stretch mb5 mb-xl-8"
+    ></app-lists-widget8>
+  </div>
+</div>
+<!-- end::Row -->

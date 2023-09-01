@@ -1,0 +1,11 @@
+{
+  "name": "metronic_angular_v8.1.8_demo6",
+  "version": "1.0.0",
+  "description": "- The Angular version can be downloaded online from [Metronic Downloads](//devs.keenthemes.com/metronic)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

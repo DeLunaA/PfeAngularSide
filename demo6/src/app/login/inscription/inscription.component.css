@@ -1,0 +1,36 @@
+.card {
+    border: 0;
+}
+
+:host ::ng-deep .p-message-custom {
+    background-color: #E1CFE7;
+    border: solid #8A427A;
+    border-width: 0 0 0 6px;
+    color: #2c1e30;
+}
+
+:host ::ng-deep .p-message-close-icon {
+    color: #2c1e30;
+}
+.form-control.form-control-solid {
+  background-color: var(--bs-gray-100);
+  border-color: var(--bs-gray-100);
+  color: var(--bs-gray-700);
+  transition: color 0.2s ease;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.775rem 1rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--bs-gray-700);
+  background-color: var(--bs-body-bg);
+  background-clip: padding-box;
+  border: 1px solid var(--bs-gray-300);
+  appearance: none;
+  border-radius: 0.475rem;
+  height:auto;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}

@@ -1,0 +1,125 @@
+<div class="hover-scroll-overlay-y my-2 my-lg-5 pe-lg-n1" id="kt_aside_menu_wrapper" data-kt-scroll="true" data-kt-scroll-height="auto" data-kt-scroll-dependencies="#kt_aside_logo, #kt_aside_footer" data-kt-scroll-wrappers="#kt_aside, #kt_aside_menu" data-kt-scroll-offset="5px">
+
+  <div class="menu menu-column menu-title-gray-700 menu-state-title-primary menu-state-icon-primary menu-state-bullet-primary menu-arrow-gray-500 fw-bold" id="kt_aside_menu" data-kt-menu="true">
+
+  <!-- Dashboard -->
+  <div class="menu-item py-3" routerLinkActive="here show">
+    <a
+      class="menu-link menu-center"
+      routerLink="/dashboard"
+      routerLinkActive="show">
+      <span class="menu-icon me-0">
+        <span
+        [inlineSVG]="'./assets/media/icons/duotune/art/art002.svg'"
+        class="svg-icon svg-icon-2"></span>
+      </span>
+      <span class="menu-title">Home</span>
+    </a>
+  </div>
+
+  <!-- Accounts -->
+  <div
+    class="menu-item py-3"
+    data-kt-menu-trigger="click"
+    data-kt-menu-placement="right-start"
+    routerLinkActive="here show"
+  >
+    <span class="menu-link menu-center">
+      <span class="menu-icon me-0">
+        <span
+          class="svg-icon svg-icon-2"
+          [inlineSVG]="'./assets/media/icons/duotune/communication/com006.svg'">
+        </span>
+      </span>
+      <span class="menu-title">Accounts</span>
+    </span>
+    <div class="menu-sub menu-sub-dropdown w-225px w-lg-275px px-1 py-4" routerLinkActive="menu-active-bg show">
+      <div class="menu-item">
+        <a
+          class="menu-link"
+          routerLinkActive="active"
+          routerLink="/crafted/account/overview">
+        <span class="menu-bullet"><span class="bullet bullet-dot"></span>
+        </span>
+          <span class="menu-title">Overview</span>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a
+          class="menu-link"
+          routerLinkActive="active"
+          routerLink="/crafted/account/settings">
+        <span class="menu-bullet"><span class="bullet bullet-dot"></span>
+        </span>
+          <span class="menu-title">Settings</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Widgets -->
+  <div
+    class="menu-item py-3"
+    data-kt-menu-trigger="click"
+    data-kt-menu-placement="right-start"
+    routerLinkActive="here show"
+  >
+    <span class="menu-link menu-center">
+      <span class="menu-icon me-0">
+        <span
+          class="svg-icon svg-icon-2"
+          [inlineSVG]="'./assets/media/icons/duotune/general/gen025.svg'">
+        </span>
+      </span>
+      <span class="menu-title">Courses</span>
+    </span>
+    <div class="menu-sub menu-sub-dropdown w-225px w-lg-275px px-1 py-4" routerLinkActive="menu-active-bg show">
+      <div class="menu-item">
+        <a
+          class="menu-link"
+          routerLinkActive="active"
+          routerLink="/crafted/widgets/lists">
+        <span class="menu-bullet"><span class="bullet bullet-dot"></span>
+        </span>
+          <span class="menu-title">Applied</span>
+        </a>
+      </div>
+      <div class="menu-item">
+        <a
+          class="menu-link"
+          routerLinkActive="active"
+          routerLink="/crafted/widgets/statistics">
+        <span class="menu-bullet"><span class="bullet bullet-dot"></span>
+        </span>
+          <span class="menu-title">Under review</span>
+        </a>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- Report -->
+  <div
+    class="menu-item py-3"
+    data-kt-menu-trigger="click"
+    data-kt-menu-placement="right-start"
+    routerLinkActive="here show"
+  >
+    <span class="menu-link menu-center">
+      <span class="menu-icon me-0">
+        <span
+          class="svg-icon svg-icon-2"
+          [inlineSVG]="'./assets/media/icons/duotune/communication/com012.svg'">
+        </span>
+      </span>
+      <span class="menu-title">Report</span>
+    </span>
+
+  </div>
+
+
+
+  </div>
+</div>
