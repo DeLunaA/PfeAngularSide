@@ -4,6 +4,7 @@ import { Observable, Subscription } from 'rxjs';
 import { AccountService } from 'src/app/core/auth/account.service';
 import { LoginService } from 'src/app/login/login.service';
 import { CoursService } from './cours.service';
+import { ICours } from './cours.model';
 
 
 @Component({
@@ -28,9 +29,10 @@ export class ListsWidget7Component implements OnInit, OnDestroy {
     this._user =  this.accountService.account;
     this._demande = this.accountService.account;
 
-    this.coursService.query().subscribe(x=>{
-      this.cours=x.body;
-    })
+    this.coursService.query().subscribe(x => {
+      console.log("Data from API:", x.body);
+      this.cours = x.body as ICours[]; // Ensure that you cast it correctly
+    });
   }
 
 

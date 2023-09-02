@@ -7,6 +7,16 @@ const Routing: Routes = [
       import('./dashboard/dashboard.module').then((m) => m.DashboardModule),
   },
   {
+    path: 'reclamation',
+    loadChildren: () =>
+      import('./reclamation/reclamation.module').then((m) => m.ReclamationModule),
+  },
+  {
+    path: 'dashboard',
+    loadChildren: () =>
+      import('./dashboard/dashboard.module').then((m) => m.DashboardModule),
+  },
+  {
     path: 'detailsoftware',
     loadChildren: () =>
       import('./detailsoftware/detailsoftware.module').then((m) => m.DetailsoftwareModule),
